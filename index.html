@@ -1,9 +1,345 @@
+<!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Pagina pra Prova</title>
+        <title>Página pra Prova</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        Testes
+        <header>
+            <a id = "Topo"><h1>Página em HTML 5 do Félix</h1></a>
+        </header>
+
+        <hr>
+        <ol>
+            <li><a href="#1parte">Formatcao de Texto</a></li>
+            <li><a href="#2parte">Imagens</a></li>
+            <li><a href="#3parte">Tabelas</a></li>
+            <li><a href="#4parte">Formulários</a></li>
+            <li><a href="#5parte">Áudio e Vídeo</a></li>
+            <li><a href="#6parte">CSS</a></li>
+        </ol>
+        <dl>
+
+        <dt>TCP/IP</dt>
+            <dd>Conjunto de protocolos que permite comunicação entre computadores na rede.</dd>
+
+            <dt>IP</dt>
+            <dd>Endereço numérico único de cada dispositivo na internet.</dd>
+
+            <dt>HTTP</dt>
+            <dd>Protocolo que transfere páginas e dados para o navegador.</dd>
+
+            <dt>HTTPS</dt>
+            <dd>Versão segura do HTTP com criptografia.</dd>
+
+            <dt>DNS</dt>
+            <dd>Traduz nomes de sites em endereços IP.</dd>
+
+            <dt>FTP</dt>
+            <dd>Protocolo para transferência de arquivos.</dd>
+
+            <dt>SMTP</dt>
+            <dd>Protocolo para envio de e-mails.</dd>
+
+            <dt>POP3 / IMAP</dt>
+            <dd>Protocolos para recebimento de e-mails.</dd>
+
+            <dt>VoIP</dt>
+            <dd>Transmissão de voz pela internet.</dd>
+
+            <dt>Cliente-Servidor</dt>
+            <dd>Cliente faz requisição e servidor responde.</dd>
+
+            <dt>Intranet</dt>
+            <dd>Rede interna de uma organização.</dd>
+
+            <dt>Extranet</dt>
+            <dd>Intranet com acesso externo controlado.</dd>
+
+            <dt>WWW</dt>
+            <dd>Sistema de páginas interligadas na internet.</dd>
+
+            <dt>Front-End</dt>
+            <dd>Parte visual com que o usuário interage.</dd>
+
+            <dt>Tags</dt>
+            <dd>Elementos que estruturam o HTML.</dd>
+
+            <dt>Atributos</dt>
+            <dd>Informações extras que modificam as tags.</dd>
+
+            <dt>&lt;!DOCTYPE html&gt;</dt>
+            <dd>Define o documento como HTML5.</dd>
+
+            <dt>&lt;html&gt;</dt>
+            <dd>Elemento raiz da página.</dd>
+
+            <dt>&lt;head&gt;</dt>
+            <dd>Parte técnica (metadados, título, CSS).</dd>
+
+            <dt>&lt;body&gt;</dt>
+            <dd>Conteúdo visível da página.</dd>
+
+            <dt>&lt;h1&gt; a &lt;h6&gt;</dt>
+            <dd>Títulos do mais importante ao menos importante.</dd>
+
+            <dt>&lt;p&gt;</dt>
+            <dd>Parágrafo de texto.</dd>
+
+            <dt>&lt;a&gt;</dt>
+            <dd>Link para páginas ou seções.</dd>
+
+            <dt>&lt;img&gt;</dt>
+            <dd>Exibe imagens (src e alt).</dd>
+
+            <dt>&lt;ul&gt;</dt>
+            <dd>Lista não ordenada.</dd>
+
+            <dt>&lt;ol&gt;</dt>
+            <dd>Lista ordenada.</dd>
+
+            <dt>&lt;li&gt;</dt>
+            <dd>Item de lista.</dd>
+
+            <dt>&lt;table&gt;</dt>
+            <dd>Cria tabela.</dd>
+
+            <dt>&lt;tr&gt;</dt>
+            <dd>Linha da tabela.</dd>
+
+            <dt>&lt;th&gt;</dt>
+            <dd>Célula de cabeçalho.</dd>
+
+            <dt>&lt;td&gt;</dt>
+            <dd>Célula de dados.</dd>
+
+            <dt>&lt;form&gt;</dt>
+            <dd>Formulário para envio de dados.</dd>
+
+            <dt>&lt;input&gt;</dt>
+            <dd>Campo de entrada (text, email, etc).</dd>
+
+            <dt>&lt;label&gt;</dt>
+            <dd>Legenda de um campo.</dd>
+
+            <dt>&lt;header&gt;</dt>
+            <dd>Cabeçalho da página.</dd>
+
+            <dt>&lt;main&gt;</dt>
+            <dd>Conteúdo principal.</dd>
+
+            <dt>&lt;footer&gt;</dt>
+            <dd>Rodapé da página.</dd>
+
+        </dl>
+        <br><hr><br>
+        <ul>
+            <li>HTML → linguagem de marcação (estrutura da página)</li>
+            <li>CSS → linguagem de estilo (aparência/design)</li>
+            <li>JavaScript → linguagem de programação (interatividade e lógica)</li>
+        </ul>
+        <br><hr><br>
+
+        <a id="1parte"><h2>1° Parte - Formatação do Texto</h2></a>
+        <br>
+        <h1>"< h1 > e < /h1 >"</h1>
+        <h2>"< h2 > e < /h2 >"</h2>
+        <h3>"< h3 > e < /h3 >"</h3>
+        <h4>"< h4 > e < /h4 >"</h4>
+        <h5>"< h5 > e < /h5 >"</h5>
+        <h6>"< h6 > e < /h6 >"</h6>
+        
+        <br>
+        <br>
+
+        Pra linha < hr >
+
+        <hr>
+        <br>
+
+        <b>Se quiser deixar algo em negrito use < b > e < /b > </b> 
+        
+        <br>
+
+        <p>Para paragrafos use</p>
+        <p>< p > e < /p ></p>
+        <p><u>e para sublinhar < u > e < /u> </u></p>
+        <br>
+
+        <hr>
+        <br>
+
+        Lista não enumerada < ul > < /ul > e < li > < /li >para seus objetos
+        <ul>
+            <li>Você</li>
+            <li>Entendeu</li>
+            <li>?</li>
+        </ul>
+        <br>
+        Lista enumerada < ol > < /ol > e < li > < /li >para seus objetos
+        <ol>
+            <li>Acho</li>
+            <li>que</li>
+            <li>sim</li>
+        </ol>
+
+        <br>
+        <hr>
+        <br>
+
+        Para um termo e sua descrição < dt >< /dt > e < dd > < /dd >, e pra abrigar tudo isso < dl >  < /dl >
+        <br>
+        <dl>
+            <dt>O primeiro normal</dt>
+                <dd>e os próximos com sua descrição</dd>
+            <dt>e o dd reseta</dt>
+                <dd>quando usa outro dt </dd>
+        </dl>
+        
+        <br>
+        <hr>
+        <br>
+
+        <a href = "#Topo">E se quiser criar uma ancora pra colar um link ou um id, use o < a > < /a > e dentro um href = "id ou link"</a>
+        
+        <br>
+
+        <a href = "https://www.w3schools.com/html/html_formatting.asp">Entendeu?</a>
+
+        <br>
+        <hr>
+        <br>
+
+        <a id="2parte"><h2>2° Parte - Imagens</h2></a>
+
+        <p>É só usar < img src = "fonte" >, não precisa de fechamento adiciona alt dentro se quiser um outro nome</p>
+        <p>width e heigh pra controlar altura e largura</p>
+        
+        <img src = "https://cba.ifmt.edu.br/wp-content/uploads/sites/4/2025/12/ESALAB-CAPA.png" alt = "ESALAB" width = "250" height= "200">
+
+        <br>
+        <hr>
+        <br>
+
+        <a id="3parte"><h2>3° Parte - Tabelas</h2></a>
+        <a>Para isso você usa></a>
+        <dl>
+            <dt>< table > < /table ></dt>
+                <dd>Para criar uma tabela, e dentro disso...</dd>
+                <dd>border = "valor"</dd>
+            <dt>< tr > < /tr ></dt>
+                <dd>Para criar as linhas, e dentro disso...</dd>
+            <dt>< td > < /td ></dt>
+                <dd>Para criar as colunas</dd>
+                <dd> align = "left/center/right" </dd>
+                <dd> valign = "top/bottom/middle"</dd>
+            <dt>Observações</dt>
+                <dd>COLSPAN="Valor" ROWSPAN="Valor" para mesclar Coluna e Linhas</dd>   
+                <dd>CELLPADDING="Valor" e CELLSPACING="Valor" para também definir espaçamento</dd>
+        </dl>
+
+        <table border="2" align="center" width="500" height="300">
+            <tr>
+                <td colspan="3" align="center">Tabelinha</td>
+            </tr>
+            <tr>
+                <td align="left" valign="top">Linha 1, Coluna 1</td>
+                <td align="center" valign="middle">Linha 1, Coluna 2</td>
+                <td align="right" valign="bottom">Linha 1, Coluna 3</td>
+            </tr>
+            <tr>
+                <td align="left" valign="top">Linha 2, Coluna 1</td>
+                <td align="center" valign="middle">Linha 2, Coluna 2</td>
+                <td align="right" valign="bottom">Linha 2, Coluna 3</td>
+            </tr>
+            <tr>
+                <td align="left">Linha 3, Coluna 1</td>
+                <td align="center" valign="middle">Linha 3, Coluna 2</td>
+                <td align="right" valign="bottom">Linha 3, Coluna 3</td>
+            </tr>
+        </table>
+
+        <br>
+        <hr>
+        <br>
+
+        <h2><a id="4parte">4° Parte - Formulários</h2>
+
+        <br>
+
+        <a>Agora use < form action="O que fazer" method="post ou get" > e < /form > para criar formulários</a>
+        <a>E < input type="TIPO" name="SEQUISER" > para as entradas</a>
+
+        <br>
+        
+        <a>Tipos Famosos e como usar:</a>
+        <ol>
+            <li> < input type="text" name="nomedavariavel" > </li>
+            <li> < input type="password" name="nomedavariavel" > </li>
+            <li> < input type="radio" name="nomedavariavel" value="valor" > Mesmo nomes = Mesmo grupo</li>
+            <li> < input type="checkbox" name="nomedavariavel" value="valor" > Mesmo nomes = Mesmo grupo</li>
+            <li> < select name="O QUE QUISER" size="Tamanho que vai aparecer" > < option value="Valor" > texto < /option >< /select ></li>
+            <li> < input name="quequiser" type="number" value="valorinicial" step="intervalos" min="valor" max="valor" ></li>
+            <li> < input name="quequiser" type="range" value="valorinicial" step="intervalos" min="valor" max="valor" ></li>
+            <li> < input type="color" name="quequiser" value="inicial" ></li>
+            <li> < input type="date" name="quequiser" /></li>
+            <li> < input type="email" ></li>
+        </ol>
+        
+        <br>
+        <a>E para enviar:</a>
+        <ol>
+            <li>< input type="submit" value="Nomezinho, Enviar" ></li>
+            <li>< input type="reset" value="O que quiser" ></li>
+            <li>< input type="button" value="?" ></li>
+        </ol>
+
+        <br>
+        <a>Agora, 2 coisinhas especiais:</a>
+        <dl>
+            <dt>Pattern</dt>
+                <dd>< input type="tipo" name="nome" pattern="requisitos/forma" ></dd>
+                <dd>Antes de pattern adicione required se quiser obrigatório</dd>
+                <dd>Exemplo da maneira tem que ser, \ marca o caractere, pattern = "\d{x} - \d{y}</dd>
+            <dt>datalist</dt>
+                <dd>< input list="nome do datalist"  name"id"</dd>
+                <dd>Ai em outro lugar você cria a datalist: </dd>
+                <dd>< datalist id="id"> < option value="valor" > < /datalist ></dd>
+        </dl>
+
+        <br>
+        <hr>
+        <br>
+
+        <h2><a id="5parte">5° Parte - Áudio e Vídeo</a></h2>
+
+        <br>
+        Audio e Vídeo, funcionam de maneira quase igual
+        <ul>
+            <li>< audio src="src" audio existe> < /audio ></audio></li>
+            <li>< audio controls o usuário pode controlar > < /audio ></li>
+        </ul>
+        <br>
+        Comandos pra usar tanto do audio e video:
+        <ul>
+            <li>type</li>
+            <li>loop</li>
+            <li>width / height</li>
+            <li>muted</li>
+            <li>autoplay</li>
+        </ul>
+
+        <br>
+        <hr>
+        <br>
+
+        <h2><a id="6parte">6° Parte - CSS</a></h2>
+        Agora a parte do css:
+        <ul>
+            <li>Cria um arquivo .css</li>
+            <li>No head coloca < link rel="stylesheet" href="estilo.css" ></li>
+            <li>e no .css voce escreve, num formato OQUEVAIMUDAR{ CARACTERISTICA QUE VAI MUDAR : VALOR}</li>
+        </ul>
     </body>
 </html>
